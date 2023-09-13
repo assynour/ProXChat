@@ -4,10 +4,20 @@
 
 This project is in an experimental phase and remains under active development. Please use it with caution and understand that you do so at your own risk.
 
+
+## 🎥 Screencast video
+The video is prepared as part of the submission to the [International Conference on Process Mining ICPM 2023](https://icpmconference.org/2023/).
+
+Due to time constraints, few questions have been shown. Feel free to try the application with questions such as:
+* Compute the automation rate
+* Who are the most overloaded
+* Find the most executed activities
+
+Watch here 👉 https://www.youtube.com/watch?v=_YssZlXGfhA
+
+
 ## Docker setup
 
-## Screencast video
-add link here
 
 ## How to use the application
 
@@ -21,5 +31,6 @@ add link here
    - Start and completion time for each activity.
    - The actor responsible for executing the activity.
 
+## Feedback
 3. **Logging**: The application records your interactions to a file called `interaction_log.txt`, stored in the `logs` directory at the root. This file includes the LLM's reasoning for your question and the corresponding SQL queries.
 
