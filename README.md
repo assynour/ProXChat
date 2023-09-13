@@ -12,6 +12,7 @@ Due to time constraints, very few questions have been shown. Feel free to try th
 * Compute the automation rate
 * Who are the most overloaded
 * Find the most executed activities
+* and others
 
 Watch here 👉 https://www.youtube.com/watch?v=_YssZlXGfhA
 
