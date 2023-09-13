@@ -8,7 +8,7 @@ This project is in an experimental phase and remains under active development. P
 ## 🎥 Screencast video
 The video is prepared as part of the submission to the [International Conference on Process Mining ICPM 2023](https://icpmconference.org/2023/).
 
-Due to time constraints, few questions have been shown. Feel free to try the application with questions such as:
+Due to time constraints, very few questions have been shown. Feel free to try the application with questions such as:
 * Compute the automation rate
 * Who are the most overloaded
 * Find the most executed activities
