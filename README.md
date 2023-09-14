@@ -30,10 +30,10 @@ Follow the steps below to set up and run the application using Docker:
    - Save and close the file.
    - Rename the file to `.env`.
 
-4. **Start Docker**:  
+3. **Start Docker**:  
    Ensure that your Docker application is up and running.
 
-5. **Execute Docker commands**:  
+4. **Execute Docker commands**:  
    - **For Windows users**:  
      Open the `cmd` as an administrator. Navigate to the project's root directory. Execute the following:
      ```
@@ -50,26 +50,26 @@ Follow the steps below to set up and run the application using Docker:
    - Populate the MySQL database with data from the `running-example.csv` file located in `/backend/src/data`.
    - load the docker images for both the frontend and backend applications.
 
-6. **Verify container creation**:  
+5. **Verify container creation**:  
    After successful execution, Docker will have created images for the application. A container named `proxchat` will be up and running with an associated data volume to ensure data persistence.
 
-7. **Access the application**:  
+6. **Access the application**:  
    You can access the running application via your web browser at:  
    [http://localhost:3000](http://localhost:3000)
 
 
-## How to use the application
+## ℹ️ How to use the application
 
 1. **Query execution data**:  
    Begin your queries on the execution data that corresponds to the BPMN process using natural language. Frame your questions, and the system will provide insights based on the data.
 
-2. 🚨 **IMPORTANT information about the data**:
+2. **IMPORTANT information about the data**:
    The provided execution data includes the following:
    - Case identifiers.
    - Names of the executed activities within a case.
    - Start and completion time for each activity.
    - The actor responsible for executing the activity.
 
-## Feedback
-3. **Logging**: The application records your interactions to a file called `interaction_log.txt`, stored in the `logs` directory at the root. This file includes the LLM's reasoning for your question and the corresponding SQL queries.
+## 🙌 Feedback
+The application records your interactions in a file called `interaction_log.txt`, which is stored in the `logs` directory at the root. This file contains all the details of the LLM reasoning and the generated queries. We are actively working on improving the application's robustness and welcome your feedback. You can share the file or provide direct feedback to nour.assy@bonitasoft.com.
 
