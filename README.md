@@ -2,7 +2,7 @@
 
 ## ⚠️ Disclaimer
 
-This project is in an experimental phase and remains under active development. Please use it with caution and understand that you do so at your own risk.
+This project is in an experimental phase and remains under active development.
 
 
 ## 🎥 Screencast video
