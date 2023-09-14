@@ -1,0 +1,4 @@
+.vscode/
+.env
+/data/venv
+/logs/interaction_log.txt
