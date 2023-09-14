@@ -45,7 +45,7 @@ Follow the steps below to set up and run the application using Docker:
      ./run-proxchat-docker.sh
      ```
 
-   The `run-docker-commands` script will:
+   The `run-proxchat-docker.bat` script will:
    - Start a MySQL service.
    - Populate the MySQL database with data from the `running-example.csv` file located in `/backend/src/data`.
    - load the docker images for both the frontend and backend applications.
